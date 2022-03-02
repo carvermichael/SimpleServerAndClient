@@ -1,0 +1,14 @@
+*.iml
+**/out/
+*.*~
+*.swp
+**/.idea/
+**vcxproj**
+**.vs/
+**/x64
+*.obj
+*.exe
+**/Debug/**
+*.pdb
+*.sln
+todo.txt
