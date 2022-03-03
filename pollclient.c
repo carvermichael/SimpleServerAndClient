@@ -105,7 +105,7 @@ int main(int argc, char* argv[])
 	enableVTCodes();
 
 	client_init();
-	client_connect("24.207.215.110", "8500");
+	client_connect("localhost", "8500");
 
 	// create and run thread for receiving messages
 	CreateThread(NULL, 0, receive, NULL, 0, NULL);
